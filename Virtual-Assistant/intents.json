@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "How are you?",
+        "Hello",
+        "Good day",
+        "Nameste"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Admissions",
+      "patterns": [
+        "What is the admission procedure?",
+        "What is the admission fee?",
+        "For applying this university is there any entrance exam?",
+        "What is the Registeration Fee?",
+        "Is the entrance exam conducted will be online or offline?",
+        "Exam conducted is offline or online?"
+      ],
+      "responses": [
+        "Regester for the entrance exam then appear for the exam after that as per your rank you can choose your respective stream.",
+        "It depends on your rank as well as your respective stream.",
+        "Yes.",
+        "Registeration fee is 10K.",
+        "Its Hybrid.",
+        "Hybrid"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Can I pay using Net Banking?",
+        "Can I pay using bitcoin?"
+      ],
+      "responses": [
+        "We accept most major credit cards, Net Banking of all banks and Paypal"
+      ]
+    },
+    {
+      "tag": "ScholarShip",
+      "patterns": [
+        "What's the scholarship criteria",
+        "What are different types of scholarship?"
+      ],
+      "responses": [
+        "IF you SRMJEEE score is below 1000, you will avail a scholarship of 25%, if it's below 500  you will avail a scholarship of 50%",
+        "There are several types of scholarship in srm. At the time of the admission we have either sports quota or your score in SRMJEEE."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
